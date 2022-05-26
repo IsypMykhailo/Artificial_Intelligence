@@ -1,0 +1,17 @@
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\bin\Debug\net6.0-windows\AI.exe
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\bin\Debug\net6.0-windows\AI.deps.json
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\bin\Debug\net6.0-windows\AI.runtimeconfig.json
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\bin\Debug\net6.0-windows\AI.dll
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\bin\Debug\net6.0-windows\AI.pdb
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.csproj.AssemblyReference.cache
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.Form1.resources
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.csproj.GenerateResource.cache
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.GeneratedMSBuildEditorConfig.editorconfig
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.AssemblyInfoInputs.cache
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.AssemblyInfo.cs
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.csproj.CoreCompileInputs.cache
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.dll
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\refint\AI.dll
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.pdb
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\AI.genruntimeconfig.cache
+D:\ПРОГРАММИРОВАНИЕ\Программирование\Artificial Intelligence\AI\AI\obj\Debug\net6.0-windows\ref\AI.dll

@@ -20,12 +20,43 @@ namespace AI
         public List<TextBox> TextBoxes = new List<TextBox>();
 
         public double Sum = 0; // Сумма сигналов с левого уровня
+        public TextBox txtSum;
         public void CalcSum()
         {
             Sum = 0;
             for(int i=0; i < Level.Count; i++)
             {
                 Sum += Level[i].Value * Weight[i];
+            }
+            if(txtSum != null)
+            {
+                txtSum.Text = Sum.ToString();
+            }
+        }
+
+        public void CalcSigmoid()
+        {
+            if (isBegin) return;
+            Value = 1 / (1 + Math.Exp(-Sum));
+        }
+
+        public double Expected; // Я ждал что будет такое решение
+
+        public void CorrectWeight()
+        {
+            double error = Value - Expected;
+            double weightCor = error * Value * (1 - Value);
+
+            double learningRate = 0.1;
+
+            for(int i=0; i<Weight.Count; i++)
+            {
+                Weight[i] = Weight[i] - Level[i].Value * weightCor * learningRate;
+
+                if (TextBoxes[i] != null)
+                {
+                    TextBoxes[i].Text = Weight[i].ToString();
+                }
             }
         }
     }
