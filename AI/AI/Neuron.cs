@@ -10,29 +10,33 @@ namespace AI
     {
         public bool isBegin = true; // Начальный ли нейрон
         public double Value; // Начальный нейрон может только передавать данные
-        // Тут же зафиксируем вычисление сигмоида
+        // Тут же мы зафиксируем вычисление сигмоида
 
-        // Предыдущий уровень нейронов
+        // Предидущий уровень нейронов
         public List<Neuron> Level = new List<Neuron>();
-        // Вес мнения предыдущего уровня
+        // Вес мнения предидущего уровня
         public List<double> Weight = new List<double>();
         // Место отображения весов
         public List<TextBox> TextBoxes = new List<TextBox>();
+
+
 
         public double Sum = 0; // Сумма сигналов с левого уровня
         public TextBox txtSum;
         public void CalcSum()
         {
             Sum = 0;
-            for(int i=0; i < Level.Count; i++)
+            Value = Sum;
+            for (int i = 0; i < Level.Count; i++)
             {
                 Sum += Level[i].Value * Weight[i];
             }
-            if(txtSum != null)
+            if (txtSum != null)
             {
                 txtSum.Text = Sum.ToString();
             }
         }
+
 
         public void CalcSigmoid()
         {
@@ -49,7 +53,7 @@ namespace AI
 
             double learningRate = 0.1;
 
-            for(int i=0; i<Weight.Count; i++)
+            for (int i = 0; i < Weight.Count; i++)
             {
                 Weight[i] = Weight[i] - Level[i].Value * weightCor * learningRate;
 
@@ -58,6 +62,7 @@ namespace AI
                     TextBoxes[i].Text = Weight[i].ToString();
                 }
             }
+
         }
     }
 }
